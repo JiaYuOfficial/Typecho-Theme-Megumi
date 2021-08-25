@@ -8,6 +8,10 @@ function themeConfig($form) {
     // 自定义背景图
     $background = new Typecho_Widget_Helper_Form_Element_Text('background', NULL, NULL, _t('站点背景'), _t('在这里填入一张图片地址，可以是随机图片API，不填则默认纯白背景'));
     $form -> addInput($background);
+    
+    // 自定义背景图
+    $background_other = new Typecho_Widget_Helper_Form_Element_Text('background_other', NULL, NULL, _t('背景透明度'), _t('在这里填入0~1之间的精确到个位小数，数字越小透明度越高，建议0.1~0.3,不填默认0.1'));
+    $form -> addInput($background_other);
 
      // 自定义作者信息
     $author_text = new Typecho_Widget_Helper_Form_Element_Textarea('author_text', NULL, NULL, _t('作者（或版权）信息'), _t('显示在文章区与评论区之间，不填则不显示，请控制字数。'));

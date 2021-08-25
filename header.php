@@ -30,8 +30,14 @@
         <link rel="stylesheet" href="<?php $this->options->siteUrl(); ?>usr/themes/zero/other/fancybox/jquery.fancybox.min.css">
         <script src="<?php $this->options->siteUrl(); ?>usr/themes/zero/other/fancybox/jquery.fancybox.min.js"></script>
 
+        <style>
+        body:before{opacity: 0.1;}
+        </style>
+
         <?php if($this -> options -> background): ?>
-        <style>body:before{background-image: url(<?php $this -> options -> background(); ?>)}</style>
+        <style>body:before{background-image: url(<?php $this -> options -> background(); ?>)}
+        body:before{opacity: <?php $this -> options -> background_other(); ?>;}
+        </style>
         <?php endif; ?>
 	
 	</head>

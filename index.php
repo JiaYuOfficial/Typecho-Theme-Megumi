@@ -5,8 +5,8 @@
  *
  * @package Typecho Megumi Theme 
  * @author 甲鱼呀
- * @version 0.8.1
- * @link https://www.moeyu.top
+ * @version 0.8.2
+ * @link https://github.com/JiaYuOfficial/Typecho-Theme-Megumi
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  $this->need('header.php');
@@ -43,7 +43,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         
         <a name="bottom"></a>
 
-		<p>Powered by <a href="http://typecho.org/">Typecho</a> • Theme<a href="https://gitee.com/JIAYUCNGA/typecho-theme-zero"> Megumi</a></p>
+		<p>Powered By <a href="http://typecho.org/">Typecho</a> • Theme By<a href="https://github.com/JiaYuOfficial/Typecho-Theme-Megumi"> Megumi</a></p>
 		<p>Copyright &copy <?php echo date("Y") ?> <?php $this->options->title() ?></p>
 		<div class="footer-cutom">
 		<?php $this -> options -> footers(); ?>
