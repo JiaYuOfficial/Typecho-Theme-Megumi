@@ -22,7 +22,7 @@
 
 ## 使用方法
 
-1. 从[这里]([Releases · JiaYuOfficial/Typecho-Theme-Megumi (github.com)](https://github.com/JiaYuOfficial/Typecho-Theme-Megumi/releases))下载最新版本的压缩包
+1. 从[这里](https://github.com/JiaYuOfficial/Typecho-Theme-Megumi/releases)下载最新版本的压缩包
 2. 上传本主题至typecho安装目录/usr/themes/下，并重命名为“Megumi”
 3. 进入typecho网站后台在顶栏控制台-外观中启用即可
 
