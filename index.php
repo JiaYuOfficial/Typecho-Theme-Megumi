@@ -5,7 +5,7 @@
  *
  * @package Typecho Megumi Theme 
  * @author 甲鱼呀
- * @version 0.8.2
+ * @version 0.8.3
  * @link https://github.com/JiaYuOfficial/Typecho-Theme-Megumi
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
