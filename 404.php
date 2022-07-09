@@ -13,7 +13,7 @@
 		<article class="post-content">
 		    
 		<div class="notfound">
-		    <p>!!!∑(ﾟДﾟノ)ノ404啦~</p></br></br></br>
+		    <p>!!!∑(ﾟДﾟノ)ノ404啦~~~</p></br></br></br>
             <p><a href="<?php $this->options->siteUrl(); ?>">回到首页</a></p>
 		</div>
 		
