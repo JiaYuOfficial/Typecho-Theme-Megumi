@@ -147,8 +147,8 @@ footer a{
 }
 
 .index-post-item:hover{
-    margin-bottom: 2em;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.40);
+    /*margin-bottom: 2em;*/
+    /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.40);*/
 }
 
 .index-post-item h1{
@@ -294,7 +294,7 @@ footer a{
 .post-content p{
     margin: .2em 0.4em;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .post-content ol,li{
@@ -1079,6 +1079,7 @@ footer a{
         border-radius: 0;
     }
 }
+
 
 /*夜间样式*/
 .dark-thme{

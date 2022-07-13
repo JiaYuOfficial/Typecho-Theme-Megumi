@@ -44,8 +44,12 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         
         <a name="bottom"></a>
 
-		<p>Powered By <a href="http://typecho.org/">Typecho</a> • Theme By<a href="https://github.com/JiaYuOfficial/Typecho-Theme-Megumi"> Megumi</a></p>
-		<p>Copyright &copy <?php echo date("Y") ?> <?php $this->options->title() ?></p>
+		<p>Powered By <a href="http://typecho.org/">Typecho</a> • Theme By<a target="_blank"href="https://github.com/JiaYuOfficial/Typecho-Theme-Megumi"> Megumi</a></p>
+		<p style="display: inline;">Copyright &copy <?php echo date("Y") ?> </p> <a style="color:#6f9fc7;" href="<?php $this -> options -> adminUrl(); ?>" target="_blank"><?php $this->options->title() ?></a>
+
+		<div class="footer-cutom">
+		<?php $this -> options -> footers(); ?>
+		</div>
 		<div class="footer-cutom"><?php $this -> options -> footers(); ?></div>
 
 </footer>

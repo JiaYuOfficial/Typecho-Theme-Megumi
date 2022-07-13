@@ -57,9 +57,9 @@
 					<?php $this->widget('Widget_Contents_Page_List')
 					   ->parse('<a href="{permalink}">{title}</a>'); ?>
 					
-					<!--<?php if($this -> user -> hasLogin()): ?>-->
+					<?php if($this -> user -> hasLogin()): ?>
                         <a href="<?php $this -> options -> adminUrl(); ?>" target="_blank">后台</a>
-                    <!--<?php endif; ?>-->
+                    <?php endif; ?>
 				</div>
 			</nav>
 	</header>
