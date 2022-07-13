@@ -76,7 +76,7 @@ footer a{
 	max-width: 56.25rem;
 	height: 5em;
 	background-color: white;
-	/*margin: 2em auto ;*/
+	margin: 2em auto ;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2em;
@@ -1058,4 +1058,30 @@ footer a{
         bottom: 25%;
         display: none;
     }
+    .post-comments
+    {
+        box-shadow: 0 0rem 0rem rgb(0 0 0 / 20%);
+        border-radius: 0;
+    }
+    .post-main{
+        box-shadow: 0 0rem 0rem rgb(0 0 0 / 20%);
+        border-radius: 0;
+        padding: 0.3em;
+    }
+    .index-nav{
+        box-shadow: 0 0rem 0rem rgb(0 0 0 / 20%);
+        border-radius: 0;
+    }
+    .index-nav-tittle{
+        display: none;
+    }
+    .index-post-item{
+        border-radius: 0;
+    }
+}
+
+/*夜间样式*/
+.dark-thme{
+        background-color: #222;
+        opacity: 0.9;
 }

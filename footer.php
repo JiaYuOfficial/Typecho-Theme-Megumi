@@ -6,7 +6,7 @@
 	<footer>
 		 <a name="bottom"></a>
 	
-		<p>Powered By <a href="http://typecho.org/">Typecho</a> • Theme By<a href="https://github.com/JiaYuOfficial/Typecho-Theme-Megumi"> Megumi</a></p>
+		<p>Powered By <a href="http://typecho.org/">Typecho</a> • Theme By<a target="_blank"href="https://github.com/JiaYuOfficial/Typecho-Theme-Megumi"> Megumi</a></p>
 		<p>Copyright &copy <?php echo date("Y") ?> <?php $this->options->title() ?></p>
 
 		<div class="footer-cutom">
