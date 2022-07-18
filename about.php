@@ -30,11 +30,7 @@
 	        <div class="page-about-informaintion-text2">
 	            <p><?php $this -> options -> custom_informaintion() ?></p>
 	        </div>
-	        <div class="page-about-informaintion-links">
-	            <p><?php $this -> options -> custom_link1() ?></p>
-	            <p><?php $this -> options -> custom_link2() ?></p>
-	            <p><?php $this -> options -> custom_link3() ?></p>
-	        </div>
+	       
         </div>
 	             
 	        </div>

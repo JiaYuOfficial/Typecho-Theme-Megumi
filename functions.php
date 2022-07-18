@@ -33,14 +33,7 @@ function themeConfig($form) {
         ('在这里填入关于页面的介绍，不填则不输出，请控制字数。'));
     $form -> addInput($custom_informaintion);
     
-    $custom_link1 = new Typecho_Widget_Helper_Form_Element_Text('custom_link1', NULL, NULL, _t('关于页面的自定义社交信息1'), _t('关于页面的自定义社交信息1，不填则不输出，示例（QQ：123456）'));
-    $form -> addInput($custom_link1);
-    
-    $custom_link2 = new Typecho_Widget_Helper_Form_Element_Text('custom_link2', NULL, NULL, _t('关于页面的自定义社交信息2'), _t('关于页面的自定义社交信息2，不填则不输出'));
-    $form -> addInput($custom_link2);
-    
-    $custom_link3 = new Typecho_Widget_Helper_Form_Element_Text('custom_link3', NULL, NULL, _t('关于页面的自定义社交信息3'), _t('关于页面的自定义社交信息3，不填则不输出'));
-    $form -> addInput($custom_link3);
+   
     
 
 }

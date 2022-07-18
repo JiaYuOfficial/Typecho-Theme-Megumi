@@ -997,19 +997,7 @@ footer a{
     font-weight: 500;
 }
 
-.page-about-informaintion-links {
-    max-height: 30%;
-}
 
-.page-about-informaintion-links p{
-    display: inline;
-}
-
-.page-about-informaintion-links p:nth-child(2){
-    border-left: 2px solid #6f9fc7;
-    border-right: 2px solid #6f9fc7;
-    padding: 0 .4em;
-}
 /*移动端适配*/
 @media screen and (max-width: 768px)
 {
