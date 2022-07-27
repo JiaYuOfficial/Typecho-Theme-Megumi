@@ -42,7 +42,7 @@
                 <?php $this -> author -> gravatar(200); ?>
             </figure>
             <div class="post-information-meta">
-                <p><?php $this -> author(); ?></p>
+                <p>作者：<?php $this -> author(); ?></p>
                 <p><?php $this -> options -> author_text() ?></p>
             </div>
         </div>

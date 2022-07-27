@@ -74,7 +74,7 @@ footer a{
 /*导航栏*/
 .index-nav{
 	max-width: 56.25rem;
-	height: 5em;
+	height: auto;
 	background-color: white;
 	margin: 2em auto ;
 	margin-right: auto;
@@ -87,7 +87,7 @@ footer a{
     animation-name: index-nav;
     animation-duration: .8s;
     animation-fill-mode: forwards;
-    opacity: 0.9;
+    z-index: -1;
 }
 
 
@@ -100,6 +100,7 @@ footer a{
 	margin-left: 0.8em;
 	font-size: 2.5em;
 	color: #6e8aad;
+	z-index: 1;
 }
 
 .index-nav-links{
@@ -1021,17 +1022,6 @@ footer a{
     .links-list-item{
         width: 90%;
     }
-    .index-nav{
-        height: auto;
-        display: block;
-    }
-    .index-nav-tittle{
-        margin-left: 0;
-        margin-bottom: .4em;
-    }
-    .index-nav-links{
-        margin: 0;
-    }
     .index-nav-links a{
         margin-right: .5em;
         margin-left: .5em;
@@ -1063,11 +1053,13 @@ footer a{
     }
     
     .index-nav{
-        box-shadow: 0 0rem 0rem rgb(0 0 0 / 20%);
-        border-radius: 0;
+        /*box-shadow: 0 0rem 0rem rgb(0 0 0 / 20%);*/
+        /*border-radius: 0;*/
+        height: auto;
+        display: flex;
     }
     .index-nav-tittle{
-        display: none;
+        /*display: none;*/
     }
     .index-post-item{
         border-radius: 0;
