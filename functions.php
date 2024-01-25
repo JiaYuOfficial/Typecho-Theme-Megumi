@@ -21,15 +21,15 @@ function themeConfig($form) {
     $custom_css = new Typecho_Widget_Helper_Form_Element_Textarea('custom_css', NULL, NULL, _t('自定义样式表'), _t('在这里填入你的自定义样式表，不填则不输出。需要精确到类名'));
     $form -> addInput($custom_css);
     
-    $footers = new Typecho_Widget_Helper_Form_Element_Textarea('footers', NULL, NULL, _t('页面底部信息'), _
+    $footers = new Typecho_Widget_Helper_Form_Element_Textarea('footers', NULL, NULL, _t('页面底部信息'), _t
         ('在这里填入需要添加到页面底部的内容，不填则不输出，请使用html、css、js等语言，有需要自行添加自定义样式'));
     $form -> addInput($footers);
 
-   $custom_talk = new Typecho_Widget_Helper_Form_Element_Textarea('custom_talk', NULL, NULL, _t('关于页面的个性签名'), _
+   $custom_talk = new Typecho_Widget_Helper_Form_Element_Textarea('custom_talk', NULL, NULL, _t('关于页面的个性签名'), _t
         ('在这里填入关于页面的个性签名，不填则不输出，请控制字数。'));
     $form -> addInput($custom_talk);
     
-    $custom_informaintion = new Typecho_Widget_Helper_Form_Element_Textarea('custom_informaintion', NULL, NULL, _t('关于页面的介绍'), _
+    $custom_informaintion = new Typecho_Widget_Helper_Form_Element_Textarea('custom_informaintion', NULL, NULL, _t('关于页面的介绍'), _t
         ('在这里填入关于页面的介绍，不填则不输出，请控制字数。'));
     $form -> addInput($custom_informaintion);
     
